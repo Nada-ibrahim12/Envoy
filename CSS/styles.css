@@ -1,0 +1,25 @@
+.nav i{
+    color: #303541 !important; 
+}
+.search {
+    position: relative;
+    font-size: 15px;
+    padding: 13px; 
+}
+
+.search::after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -10px; 
+}
+.sign {
+    background: #E23C32;
+    font-weight: 500;
+    width: 130px;
+    padding: 10px;
+}
