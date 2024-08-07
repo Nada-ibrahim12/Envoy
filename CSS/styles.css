@@ -1,25 +1,82 @@
-.nav i{
-    color: #303541 !important; 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  margin: 25px 0px 10px 60px;
+}
+.logo img {
+  width: 112px;
+  height: 35px;
+}
+.nav i {
+  color: #303541 !important;
 }
 .search {
-    position: relative;
-    font-size: 15px;
-    padding: 13px; 
+  position: relative;
+  font-size: 15px;
+  padding: 13px;
 }
-
 .search::after {
-    content: "";
-    width: 1px;
-    height: 40px;
-    border: 1px solid black;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: -10px; 
+  content: "";
+  width: 1px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -3px;
 }
 .sign {
-    background: #E23C32;
-    font-weight: 500;
-    width: 130px;
-    padding: 10px;
+  background: #e23c32;
+  font-weight: 500;
+  width: 150px;
+  padding: 8px 0;
+  border-radius: 6px;
+  color: white;
+}
+.head h1 {
+  font-family: "Sofia Pro Semi Bold", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 59.92px;
+  color: rgb(63, 68, 80);
+  margin: 0;
+  padding: 0;
+  max-width: 950px;
+  text-align: center;
+}
+.backg-img {
+  display: block;
+  height: 73vh;
+  width: 100%;
+}
+.btns .btn1 {
+  background: #e23c32;
+  font-weight: 600;
+  width: 140px;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+}
+.btns .btn2 {
+  background: #f6f6f9;
+  font-size: 16px;
+  font-weight: 600;
+  width: 150px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #e23c32;
+}
+.btn2:hover {
+  background: #e9e9eb;
+}
+.a p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+  color: rgb(113, 118, 132);
+  text-align: center;
 }
